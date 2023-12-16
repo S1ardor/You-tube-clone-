@@ -1,0 +1,37 @@
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+form label{
+  display: inline-block;
+  padding: 0.5rem 0rem;
+  font-size: 14px;
+}
+form label input{
+  padding: 0.5rem 1rem;
+  border: 1px solid grey !important;
+  border-radius: 5px;
+}
+.error{
+  font-size: 1em;
+  color: crimson;
+}
+.login_btn {
+  padding: 11px 22px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(0, 112, 0);
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.login_btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 5px rgba(0,128,0,0.39);
+-webkit-box-shadow: 0px 0px 10px 5px rgba(0,128,0,0.39);
+-moz-box-shadow: 0px 0px 10px 5px rgba(0,128,0,0.39);
+}
+.submitd_btn {
+  margin-top: 15px;
+}

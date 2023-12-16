@@ -1,0 +1,10 @@
+.site__inner{
+    display: grid;
+    grid-template-columns: 18% 82% !important   ;
+    grid-template-rows: repeat(1, auto);
+}
+@media screen and (max-width: 992px) {
+    .site__inner {
+        grid-template-columns: 10% 90% !important;
+    }
+}

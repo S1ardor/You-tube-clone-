@@ -1,0 +1,58 @@
+.modal__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11111111111111111;
+}
+
+.modal {
+    width: 30%;
+    padding: 1rem;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.modal__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal__top button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: crimson;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 0.3rem;
+    border-top-right-radius: 10px;
+}
+
+.register_btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: rgb(250, 44, 44);
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+.register_btn:hover {
+    cursor: pointer;
+    background-color: rgb(235, 56, 56);
+    box-shadow: 0px 0px 7px 6px rgba(255,0,0,0.34);
+}
+
+.register_btn:active {
+    transform: scale(0.9);
+}

@@ -1,0 +1,20 @@
+.swiper-button-prev::after, .swiper-button-next::after{
+    display: none;
+}
+.swiper{
+    padding-top: 3rem !important;
+    margin-bottom: 10px;
+}
+.home_context h6 {
+    padding: 0 10px;
+}
+.slide_youtube__active {
+    max-width: 350px;
+    width: 100%;
+}
+
+
+
+
+
+
